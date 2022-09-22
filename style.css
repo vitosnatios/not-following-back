@@ -1,0 +1,76 @@
+body {
+  background: rgb(97, 97, 97);
+  margin: 0;
+  padding: 0;
+  background: rgb(94, 94, 148);
+}
+.title,
+.input,
+.result {
+  text-align: center;
+}
+
+input,
+button {
+  background: rgb(198, 195, 241);
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 3px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.input h3 {
+  margin-bottom: 3px;
+}
+
+.result {
+  display: none;
+  margin-top: 20px;
+  width: 60%;
+  background: rgb(19 19 20);
+  padding: 20px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  background: rgb(198, 195, 241);
+}
+
+.resultCell {
+  display: inline-block;
+  padding: 10px 40px;
+  position: relative;
+  width: 100px;
+  height: 180px;
+  margin: 3px;
+  border-radius: 8px;
+  background: rgb(37, 37, 59);
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nickname {
+  margin: 3px 0 0 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-break: anywhere;
+  position: absolute;
+}
+
+.link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+[alt="loading"] {
+  display: none;
+  margin-top: 3px;
+  width: 30px;
+}
