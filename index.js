@@ -46,11 +46,11 @@ const fetchFollowAndFollowers = async (username) => {
   } catch (err) {
     document.querySelector(".result").style.display = "block";
     document.querySelector(".result").innerText =
-      "Houve algum erro. Tente novamente, ou não.";
+      "Error. Please try again later.";
     setTimeout(() => {
       document.querySelector(".result").innerText = "";
       document.querySelector(".result").style.display = "none";
-    }, 1500);
+    }, 2000);
     button.style.display = "initial";
     loadingGif.style.display = "none";
   }
